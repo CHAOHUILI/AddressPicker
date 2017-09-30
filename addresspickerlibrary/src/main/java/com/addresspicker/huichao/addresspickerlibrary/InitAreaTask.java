@@ -30,6 +30,7 @@ public class InitAreaTask extends AsyncTask<Integer, Integer, Boolean> {
 
     public void setOnLoadingAddressListener(onLoadingAddressListener onLoadingAddressListener) {
         this.onLoadingAddressListener = onLoadingAddressListener;
+        this.onLoadingAddressListener.onLoading();
     }
 
     @Override
@@ -73,6 +74,7 @@ public class InitAreaTask extends AsyncTask<Integer, Integer, Boolean> {
 
     public interface onLoadingAddressListener {
         void onLoadFinished();
+        void onLoading();
     }
 
 }

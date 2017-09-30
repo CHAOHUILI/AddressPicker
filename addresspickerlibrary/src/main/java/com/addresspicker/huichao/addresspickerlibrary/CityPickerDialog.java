@@ -11,16 +11,17 @@ import android.view.View;
 import android.view.ViewGroup.LayoutParams;
 import android.view.Window;
 
-import com.vidmt.family.address.address.City;
-import com.vidmt.family.address.address.County;
-import com.vidmt.family.address.address.Province;
-import com.vidmt.family.address.wheel.OnWheelChangedListener;
-import com.vidmt.family.address.wheel.OnWheelClickedListener;
-import com.vidmt.family.address.wheel.WheelView;
-import com.vidmt.family.address.wheel.adapter.AbstractWheelTextAdapter;
+import com.addresspicker.huichao.addresspickerlibrary.address.City;
+import com.addresspicker.huichao.addresspickerlibrary.address.County;
+import com.addresspicker.huichao.addresspickerlibrary.address.Province;
+import com.addresspicker.huichao.addresspickerlibrary.wheel.OnWheelChangedListener;
+import com.addresspicker.huichao.addresspickerlibrary.wheel.OnWheelClickedListener;
+import com.addresspicker.huichao.addresspickerlibrary.wheel.WheelView;
+import com.addresspicker.huichao.addresspickerlibrary.wheel.adapter.AbstractWheelTextAdapter;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 public class CityPickerDialog extends Dialog {
 

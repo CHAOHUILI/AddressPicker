@@ -14,8 +14,8 @@ import android.view.animation.Interpolator;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.vidmt.family.R;
-import com.vidmt.family.address.wheel.adapter.WheelViewAdapter;
+import com.addresspicker.huichao.addresspickerlibrary.R;
+import com.addresspicker.huichao.addresspickerlibrary.wheel.adapter.WheelViewAdapter;
 
 import java.util.LinkedList;
 import java.util.List;
@@ -734,8 +734,8 @@ public class WheelView extends View {
     /**
      * Scroll the wheel
      *
-     * @param itemsToSkip items to scroll
-     * @param time        scrolling duration
+//     * @param itemsToSkip items to scroll
+//     * @param time  scrolling duration
      */
     public void scroll(int itemsToScroll, int time) {
         int distance = itemsToScroll * getItemHeight() - scrollingOffset;
