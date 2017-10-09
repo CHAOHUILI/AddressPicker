@@ -2,11 +2,7 @@
 地址选择器，三级联动
 效果图：
 
-
-
-没有md编辑器，把图片传到项目根目录了，名字是addressPicker，/允悲/允悲/允悲自己打开看吧，后期我再补上，哈哈
-（也可以查看菜单栏的Wiki，里边有图！！！）
-
+![effect image](https://github.com/CHAOHUILI/AddressPicker/blob/master/addressPicker.png)
 
 
 使用方法：
