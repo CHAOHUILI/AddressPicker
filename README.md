@@ -33,9 +33,7 @@
             
   其中provinces是一个全局Province数组，；
             
-  然后使当前activity或者fragment继承：（或者new一个，自己注册监听）
-  InitAreaTask.onLoadingAddressListener，实现其中的onLoadFinished（代表初始化地址完成）方法和
-  onLoading（代表开始初始化）方法。可以在onLoadFinished后显示地址选择框，代码：
+  然后使当前activity或者fragment继承： InitAreaTask.onLoadingAddressListener（或者new一个，自己注册监听），实现其中的onLoadFinished（代表初始化   地址完成）方法和 onLoading（代表开始初始化）方法。可以在onLoadFinished后显示地址选择框，代码：
   
   
     @Override
