@@ -40,7 +40,8 @@
           showAddressDialog();
       }
       private void showAddressDialog() {
-           new CityPickerDialog(MainActivity.this, provinces, null, null, null, new CityPickerDialog.onCityPickedListener() {
+           new CityPickerDialog(MainActivity.this, provinces, 
+	   null, null, null, new CityPickerDialog.onCityPickedListener() {
                     @Override
                     public void onPicked(Province selectProvince,
                                          City selectCity, County selectCounty) {
@@ -61,8 +62,8 @@
                 }).show();
       }
     
-   点击完成，就会弹出选择地址的提示。
+  点击完成，就会弹出选择地址的提示。
     
-   您也可以把library下载下来，当做项目的module进行依赖，这样可以进行简单的修改，例如文字的颜色和弹框的布局。
+  您也可以把library下载下来，当做项目的module进行依赖，这样可以进行简单的修改，例如文字的颜色和弹框的布局。
     
    如果使用方便，记得star哦！
